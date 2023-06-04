@@ -1,9 +1,0 @@
-butony - #8365FD
-background - #709EFA
-primary - #5B64E3 
-footer - #658EE0
-dopelniajacy - #FACF70
-roz - #FA89BE
-bialy - #eff6ff
-text - #cbd5e1
-drugi text - #374E7A
