@@ -1,8 +1,8 @@
 body {
   margin: 0;
   background-color: #709efa;
-  color: #f0f9ff;
-  font-family: sans-serif;
+  color: #1a253b;
+  font-family: "Open Sans", sans-serif;
 }
 
 .root {
@@ -13,9 +13,10 @@ header {
   display: flex;
   justify-content: space-between;
   flex-basis: 100%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 90%;
   color: #fa89be;
+  height: auto;
 }
 
 .header {
@@ -24,22 +25,52 @@ header {
 
 header > nav > ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 nav {
   width: 15em;
   margin-left: 3em;
+  display: flex;
+  text-align: center;
+}
+
+li {
+  display: grid;
+  place-content: center;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 ul {
   padding: 0;
   justify-content: space-around;
   list-style: none;
+  width: 100%;
+}
+
+header > nav > ul > li > a:link {
+  color: #fa89be;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+  transition-duration: 300ms;
+}
+
+header > nav > ul > li > a:visited {
+  color: #fa89be;
+}
+
+header > nav > ul > li > a:hover {
+  color: #faa4cc;
+  transition-duration: 300ms;
 }
 
 article {
   width: 20em;
   background-color: #f0f9ff;
+  padding: 1em;
   color: #4a5568;
   border-radius: 0.5em;
 }
@@ -60,19 +91,13 @@ button {
   background-color: #facf70;
   border: none;
   border-radius: 7px;
+  transition-duration: 300ms;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #faea64;
-}
-
-article > h3 {
-  margin-top: 0.5em;
-}
-
-article > button {
-  margin-bottom: 0.5em;
+  transition-duration: 300ms;
+  background-color: #fadb96;
 }
 
 .footer {
