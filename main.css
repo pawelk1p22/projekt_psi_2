@@ -69,6 +69,7 @@ header > nav > ul > li > a:hover {
 
 article {
   width: 20em;
+  margin-top: 1rem;
   background-color: #f0f9ff;
   padding: 1em;
   color: #4a5568;
@@ -94,6 +95,8 @@ button {
   border: none;
   border-radius: 7px;
   transition-duration: 300ms;
+  font-size: 1rem;
+  padding: 0.3rem;
   color: #1a253b;
 }
 
