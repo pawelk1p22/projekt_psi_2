@@ -44,7 +44,7 @@ li {
 
 ul {
   padding: 0;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   width: 100%;
 }
@@ -74,7 +74,9 @@ article {
   color: #4a5568;
   border-radius: 0.5em;
 }
-
+img {
+  width: 20em;
+}
 section {
   display: flex;
   flex-wrap: wrap;
@@ -92,6 +94,7 @@ button {
   border: none;
   border-radius: 7px;
   transition-duration: 300ms;
+  color: #1a253b;
 }
 
 button:hover {
@@ -108,4 +111,21 @@ footer {
   flex-basis: 100%;
   color: #374e7a;
   text-align: center;
+  font-size: 0.9rem;
+}
+footer > a {
+  text-decoration: none;
+  transition-duration: 300ms;
+}
+footer > a:link {
+  color: #374e7a;
+}
+
+footer > a:visited {
+  color: #374e7a;
+}
+
+footer > a:hover {
+  transition-duration: 300ms;
+  color: #4e6591;
 }
