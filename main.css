@@ -74,6 +74,13 @@ article {
   padding: 1em;
   color: #4a5568;
   border-radius: 0.5em;
+  transition-duration: 300ms;
+}
+article:hover {
+  scale: 1.05;
+  -webkit-box-shadow: 8px 8px 0px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 0px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 0px 0px rgba(66, 68, 90, 1);
 }
 img {
   width: 20em;
@@ -120,6 +127,7 @@ footer > a {
   text-decoration: none;
   transition-duration: 300ms;
 }
+
 footer > a:link {
   color: #374e7a;
 }
