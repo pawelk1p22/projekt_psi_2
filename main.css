@@ -96,7 +96,10 @@ footer {
   margin: 0 auto 0 auto;
   max-width: 85%;
 }
-
+fieldset {
+  display: flex;
+  justify-content: center;
+}
 button {
   background-color: #facf70;
   border: none;
@@ -105,6 +108,31 @@ button {
   font-size: 1rem;
   padding: 0.3rem;
   color: #1a253b;
+}
+
+legend {
+  margin: 0 auto;
+}
+fieldset {
+  width: 75%;
+  border: 2px solid black;
+  margin: 0 auto;
+  /* border-radius: 0.1vw; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 15em;
+}
+
+form > * {
+  margin-top: 1rem;
+}
+
+form > label {
+  text-align: center;
 }
 
 button:hover {
